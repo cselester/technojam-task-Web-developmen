@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .tabs {
+            display: flex;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        .tab {
+            padding: 10px 20px;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            margin-right: 5px;
+        }
+        .tab:hover {
+            background-color: #ddd;
+        }
+        .active {
+            background-color: #ccc;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Challenge Index</h1>
+    
+    <div class="tabs">
+        <div class="tab active" onclick="location.href='easy/index.html'">Easy</div>
+        <div class="tab" onclick="location.href='medium/index.html'">Medium</div>
+    </div>
+
+    <p>Select a tab to view the challenges.</p>
+
+</body>
+</html>
